@@ -7,16 +7,14 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: #4A98F7;
+ 
 }
 .container2{
+  padding-top: 50px;
   display: flex;
   width: 100%;
   gap: 10px;
+ 
 
 }
 section{
@@ -138,6 +136,8 @@ section{
 .drawing-board{
   flex: 1;
   overflow: hidden;
+  border: 1px solid gray;
+  border-radius: 8px;
 }
 .drawing-board canvas{
   width: 100%;
